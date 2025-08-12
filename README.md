@@ -1,0 +1,46 @@
+# 🛒 TCCD Task – E-Commerce Backend API
+
+A backend API built with **Node.js, Express, and MongoDB** for a simplified e-commerce platform.  
+Implements CRUD operations for **Products** and **Categories**, plus bonus features for **Cart** and **Cart Items**.
+
+---
+
+## 📌 Features
+
+### **Product Management**
+- **POST** `/api/products` → Create new product  
+- **GET** `/api/products` → Get all products  
+- **GET** `/api/products/:id` → Get single product by ID  
+- **PATCH** `/api/products/:id` → Update product (partial update)  
+- **DELETE** `/api/products/:id` → Delete product
+
+### **Category Management**
+- **POST** `/api/categories` → Create new category  
+- **GET** `/api/categories` → Get all categories  
+- **GET** `/api/categories/:id` → Get single category  
+- **PATCH** `/api/categories/:id` → Update category  
+- **DELETE** `/api/categories/:id` → Delete category
+
+### **Cart Management** (Bonus)
+- **POST** `/api/cart` → Create cart (empty)  
+- **DELETE** `/api/cart/:cartId` → Delete cart by ID  
+- **GET** `/api/cartItems/:cartId` → Get all cart items in a cart
+
+### **Cart Item Management** (Bonus)
+- **POST** `/api/cartItems/:cartId` → Create cart item for a cart  
+- **GET** `/api/cartItems/:cartItemId` → Get single cart item info  
+- **PATCH** `/api/cartItems/:cartItemId` → Update specific cart item
+
+---
+
+## 🛠 Tech Stack
+- **Node.js**
+- **Express.js**
+- **MongoDB** with **Mongoose**
+- **dotenv**
+- **cookie-parser**
+- **nodemon** (dev)
+
+---
+
+## 📂 Project Structure
