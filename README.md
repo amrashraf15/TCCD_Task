@@ -42,3 +42,26 @@ Implements CRUD operations for **Products** and **Categories**, plus bonus featu
 ---
 
 ## 📂 Project Structure
+
+```C++
+src/
+├── config/
+│ └── db.js
+├── controllers/
+│ ├── productController.js
+│ ├── categoryController.js
+│ ├── cartController.js
+│ └── cartItemController.js
+├── models/
+│ ├── Product.js
+│ ├── Category.js
+│ ├── Cart.js
+│ └── CartItem.js
+├── routes/
+│ ├── productRoutes.js
+│ ├── categoryRoutes.js
+│ ├── cartRoutes.js
+│ └── cartItemRoutes.js
+├── app.js
+└── server.js
+```
