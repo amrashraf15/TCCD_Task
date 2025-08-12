@@ -65,3 +65,25 @@ src/
 ├── app.js
 └── server.js
 ```
+---
+
+## ⚙️ Installation & Running
+### 1. Clone the Repository  
+   ```sh
+   git clone https://github.com/amrashraf15/TCCD_Task.git
+   cd backend
+   ```
+2.  Install Dependencies
+   ```sh
+    npm install
+   ```
+3. Create a .env file
+  ```sh
+     PORT=2020
+    MONGO_URI=...
+   ```
+4. Run Server
+  ```sh
+        npm run dev
+   ```
+---
